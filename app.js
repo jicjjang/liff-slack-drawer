@@ -27,7 +27,7 @@ app.post('/api', async (req, res, next) => {
           attachments: [
             {
               text: '낙서장',
-              image_url: config.image_url
+              image_url: 'http://liff-slack-drawer-app.herokuapp.com/temp/image.png'
             }
           ]
         }),
